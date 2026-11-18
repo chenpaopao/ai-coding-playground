@@ -36,7 +36,7 @@
 
 | 项目 | 简介 | 类型 | 技术栈 | 在线体验 |
 | :--- | :--- | :---: | :--- | :---: |
-| 🚧 **第一个项目正在路上** | 一个由 AI 协助完成的有趣作品 | 待公布 | 待公布 | Coming soon |
+| [🌌 **3D 银河**](./projects/3d-galaxy/) | 可环绕、缩放和调节参数的实时粒子银河 | 3D 创意实验 | Three.js · WebGL2 · GLSL | [运行说明](./projects/3d-galaxy/README.md) |
 
 <!--
 新增作品时，可以复制下面这一行：
@@ -98,14 +98,10 @@ AI 可能参与的工作包括：
 ai-coding-playground/
 ├── README.md
 ├── projects/
-│   ├── project-one/
-│   │   ├── README.md
-│   │   └── ...
-│   └── project-two/
+│   └── 3d-galaxy/
 │       ├── README.md
-│       └── ...
-└── docs/
-    └── images/
+│       └── index.html
+└── LICENSE
 ```
 
 建议每个项目至少包含：
@@ -124,17 +120,17 @@ ai-coding-playground/
 克隆整个仓库：
 
 ```bash
-git clone https://github.com/<your-github-username>/ai-coding-playground.git
+git clone https://github.com/chenpaopao/ai-coding-playground.git
 cd ai-coding-playground
 ```
 
 进入想体验的项目，并按照该项目目录中的 `README.md` 操作：
 
 ```bash
-cd projects/<project-name>
+cd projects/3d-galaxy
 ```
 
-不同作品可能采用不同技术栈，请以各自的说明为准。
+第一个项目无需安装依赖，可以直接打开 `index.html`；也可以在仓库根目录运行 `python -m http.server 8000`，然后访问 `http://localhost:8000/projects/3d-galaxy/`。不同作品可能采用不同技术栈，请以各自的说明为准。
 
 ---
 
