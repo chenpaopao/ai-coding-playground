@@ -38,6 +38,7 @@
 | :--- | :--- | :---: | :--- | :---: |
 | [🌌 **3D 银河**](./projects/3d-galaxy/) | 可环绕、缩放和调节参数的实时粒子银河 | 3D 创意实验 | Three.js · WebGL2 · GLSL | [运行说明](./projects/3d-galaxy/README.md) |
 | [✨ **致 yiyi · 银河告白**](./projects/for-yiyi/) | 四幕式互动银河故事，可自定义回忆、日期和名字 | 互动叙事 | WebGL2 · GLSL · Web Audio | [运行说明](./projects/for-yiyi/README.md) |
+| [🌙 **月光浮空岛**](./projects/moonlit-floating-island/) | 可探索并点亮魔法水晶的动态 3D 浮空岛 | 3D 创意实验 | Three.js · WebGL · GLSL | [运行说明](./projects/moonlit-floating-island/README.md) |
 
 <!--
 新增作品时，可以复制下面这一行：
@@ -102,7 +103,10 @@ ai-coding-playground/
 │   ├── 3d-galaxy/
 │   │   ├── README.md
 │   │   └── index.html
-│   └── for-yiyi/
+│   ├── for-yiyi/
+│   │   ├── README.md
+│   │   └── index.html
+│   └── moonlit-floating-island/
 │       ├── README.md
 │       └── index.html
 └── LICENSE
@@ -134,7 +138,7 @@ cd ai-coding-playground
 cd projects/3d-galaxy
 ```
 
-`3d-galaxy` 可以直接打开，也可以通过本地静态服务器访问；`for-yiyi` 是完全离线的单文件项目，直接双击 `index.html` 即可。不同作品可能采用不同技术栈，请以各自的说明为准。
+这些项目均可按照各自 README 中的说明运行。`moonlit-floating-island` 是单文件项目，打开 `index.html` 即可体验，但需要联网加载 Three.js。
 
 ---
 
